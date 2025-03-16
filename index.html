@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<head>
+  <style>
+    
+    body {
+      background-color:skyblue
+    }
+
+    h1 {
+      color:yellow;
+      text-align:center;
+      background-color:dodgerblue;
+      margin:0;
+    }
+
+    .container {
+      display:flex;
+      width:98vw;
+      flex-direction:row;
+    }
+
+    .right {
+      flex-grow:1;
+      background-color:darkgray;
+    }
+
+    .photo {
+      
+      width:500px;
+      height:585px;
+      overflow-y:scroll;
+      overflow-x:hidden;
+    }
+
+    .left {
+      flex-grow:1;
+      background-color:darkgray;
+    }
+    
+    img {
+      position:sticky;
+      top:0px;
+    }
+
+   
+    </style>
+</head>
+
+<body> 
+  
+  <h1>심술 돼지</h1>
+  <div class="container">
+    <div class="right"></div>
+    <div class="photo">
+      <img src="돼지1.jpg" width="500px" height="585px">
+      <img src="돼지2.jpg" width="500px" height="585px">
+    </div>
+    <div class="left"></div>
+  </div>
+  
+</body>
