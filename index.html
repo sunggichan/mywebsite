@@ -2,6 +2,44 @@
 <head>
   <style>
     
+    body {
+      margin:0;
+    }
+
+    #title {
+      display:flex;
+      width:100vw;
+      height:10vh;
+      background-color:rgb(0, 64, 255);
+      justify-content:center;
+      align-items:center;
+      border-radius: 1em;
+    }
+
+    h1 {
+      color:white;
+    }
+
+    #container {
+      display:flex;
+      width:100vw;
+      height:90vh;
+      justify-content:center;
+      align-items:center;
+      background-color:#99c2ff;
+    }
+
+    #photo {
+      width:28vw;
+      height:80vh;
+      overflow-x:hidden;
+      overflow-y:scroll;
+    }
+
+    img {
+      position:sticky;
+      top:0;
+    }
    
    
     </style>
@@ -9,7 +47,18 @@
 
 <body> 
   
-  <h1>Hellow World</h1>
-  <img src="./pig1.jpg" width="650" height="800">
+  <div id="title">
+    <h1>심술돼지</h1>
+  </div>
+
+  <div id="container">
+    <div id="photo">
+      <img src="./pig1.jpg" width="100%" height="100%">
+      <img src="./pig2.jpg" width="100%" height="100%">
+      <img src="/돼지3.jpeg" width="100%" height="100%">
+      <img src="./갈남항1.jpg" width="100%" height="100%">
+      <img src="./갈남항2.jpg" width="100%" height="100%">
+    </div>
+  </div>
   
 </body>
